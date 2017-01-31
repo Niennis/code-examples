@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
     // Configurá tu Public Key
-    Mercadopago.setPublishableKey("TEST-d31c09bf-f6c8-47d9-ad3d-68487a273612");
+    Mercadopago.setPublishableKey("PUBLIC_KEY");
 
     // Consultá el recurso de installments
     Mercadopago.getInstallments({
