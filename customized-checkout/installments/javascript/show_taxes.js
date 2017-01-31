@@ -5,6 +5,7 @@
 
     // Consultá el recurso de installments
     Mercadopago.getInstallments({
+        "payment_method_id": "visa",
         "bin": 424242,
         "amount": 100
     }, showInstallments);
