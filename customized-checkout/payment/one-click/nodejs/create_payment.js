@@ -9,7 +9,8 @@ var doPayment = mp.post ("/v1/payments",
 		"description": "Title of what you are paying for",
 		"installments": 1,
 		"payer": {
-			"id": "12345678"
+			"type": "customer",
+            "id": "12345678-abcdefghij"
 		}
 	});
 
